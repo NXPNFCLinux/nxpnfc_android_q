@@ -12,4 +12,4 @@ Any question ? see [NXP Community](https://community.nxp.com/community/identific
 
 Release version
 ---------------
- * R1.0: Initial release based on internal tag 10.01.00
+ * R1.0: Initial release based on internal tag 10.02.00 (branch aosp-vendor-nxp-Android-10)
