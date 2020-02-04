@@ -1,0 +1,6 @@
+# NFC labeling
+/data/nfc(/.*)?        u:object_r:nfc_data_file:s0
+/data/vendor/nfc(/.*)? u:object_r:nfc_vendor_data_file:s0
+
+# NFC hal
+#/(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@1\.1-service      u:object_r:hal_nfc_default_exec:s0
