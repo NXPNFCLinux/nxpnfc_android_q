@@ -27,9 +27,9 @@ static void closeNfc(int handle)
 
 static void reset(int handle)
 {
-    ioctl(handle, _IOW(0xE9, 0x01, unsigned long), 0);
+    ioctl(handle, _IOW(0xE9, 0x01, unsigned int), 0);
     usleep(10 * 1000);
-    ioctl(handle, _IOW(0xE9, 0x01, unsigned long), 1);
+    ioctl(handle, _IOW(0xE9, 0x01, unsigned int), 1);
 }
 
 static int send(int handle, char *pBuff, int buffLen)
